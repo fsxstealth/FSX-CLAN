@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSX Clan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            background-color: #0d0d0d;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            position: relative;
+            height: 100vh;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('background.webp');
+            background-size: cover;
+            background-position: center;
+            filter: blur(3px);
+            z-index: -1;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 50px 20px;
+            border: 2px solid #ff0000;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.8);
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 20px;
+            animation: fadeIn 1s;
+            backdrop-filter: blur(4px);
+        }
+        h1 {
+            font-size: 4.5em;
+            text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin: 15px 0;
+            color: #ff0000;
+            text-shadow: 0 0 15px #ff0000;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 15px 0;
+            line-height: 1.6;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0;
+            animation: slideIn 0.5s ease-in-out forwards;
+        }
+        p:nth-of-type(1) { animation-delay: 0.5s; }
+        p:nth-of-type(2) { animation-delay: 1s; }
+        p:nth-of-type(3) { animation-delay: 1.5s; }
+        a {
+            color: #ff0000;
+            text-decoration: none;
+            transition: color 0.3s, transform 0.3s;
+            font-weight: bold;
+            display: inline-block;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: rgba(255, 0, 0, 0.1);
+        }
+        a:hover {
+            background-color: rgba(255, 0, 0, 0.5);
+            color: #00ff00;
+            transform: scale(1.05);
+        }
+        .icon {
+            margin-right: 10px;
+            font-size: 1.5em;
+            vertical-align: middle;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #ff0000;
+            animation: fadeIn 1.5s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <h1>FSX Clan</h1>
+        <h2>About Us</h2>
+        <p>We are a dedicated community of Evade players who focus on improving, making friends, and growing together as a team.</p>
+        <h2>Requirements (Verified Members)</h2>
+        <p>Emote bhop and some movement – nothing too crazy!</p>
+        <h2>Why Us?</h2>
+        <p>
+            • We teach and play with each other.<br>
+            • We promote small content creators.<br>
+            • Meet members in our official Roblox game: FSX Clan Hangout.<br>
+            • We follow the rules.<br>
+            • We care about you, with a friendly staff here to help.<br>
+            • And much more!
+        </p>
+        <h2>Links</h2>
+        <p><a href="https://discord.gg/nJrA6drUek" target="_blank"><i class="fa-brands fa-discord icon"></i>Join Our Discord</a></p>
+        <p><a href="https://www.youtube.com/@FSXStealth" target="_blank"><i class="fa-brands fa-youtube icon"></i>Owner's YouTube</a></p>
+        <p><a href="https://www.tiktok.com/@stealth_fsx" target="_blank"><i class="fa-brands fa-tiktok icon"></i>Owner's TikTok</a></p>
+        <p><a href="https://www.roblox.com/users/7009060659/profile" target="_blank"><i class="fa-brands fa-roblox icon"></i>Owner's Roblox Profile</a></p>
+        <p><a href="https://www.youtube.com/@ooo1dh" target="_blank"><i class="fa-brands fa-youtube icon"></i>Co-owner's YouTube</a></p>
+        <p><a href="https://www.tiktok.com/@ooo1rbx" target="_blank"><i class="fa-brands fa-tiktok icon"></i>Co-owner's TikTok</a></p>
+        <p><a href="https://www.roblox.com/users/257963538/profile" target="_blank"><i class="fa-brands fa-roblox icon"></i>Co-owner's Roblox Profile</a></p>
+    </div>
+    <footer>
+        <p>&copy; 2024 FSX Clan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
